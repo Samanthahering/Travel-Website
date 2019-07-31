@@ -1,0 +1,238 @@
+/*******TAG SELECTORS**********/
+a {
+    text-decoration: none !important;
+    color: blue;
+}
+ a:hover{
+   color: blue;
+ }
+body{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+h1{
+  color: blue;
+  text-align: center;
+  padding: 40px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 4rem;
+  margin-top: 0;
+}
+
+h2{
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
+}
+
+h3{
+font-family: 'Dancing Script', cursive;
+font-size: 2rem;
+}
+
+hr{
+margin-bottom: 30px;
+}
+
+li{
+  text-align: left;
+}
+
+ul{
+  display: inline-block;
+  list-style-type: circle;
+}
+
+
+
+/*******CLASS SELECTORS**********/
+.about-pic{
+  width: 40%;
+  transform: rotate(80deg);
+  margin: 50px 0;
+  float: left;
+}
+
+
+.blurb{
+  width: 50%;
+  margin: auto;
+}
+
+.circle-pic{
+  border-radius: 100%;
+  width: 17%;
+  padding: 20px;
+}
+
+.extra-footer{
+  text-align: center;
+}
+
+.extra-footer-2{
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 40px;
+}
+
+.fa-twitter{
+  padding: 2%;
+  color: black;
+}
+
+.fa-twitter:hover{
+  color: blue;
+}
+
+.fa-facebook-f{
+  padding: 2%;
+  color: black;
+}
+
+.fa-facebook-f:hover{
+  color: blue;
+}
+
+.fa-instagram{
+  padding: 2%;
+  color: black;
+}
+
+.fa-instagram:hover{
+  color: blue;
+}
+
+.fa-snapchat-ghost{
+  padding: 2%;
+  color: black;
+}
+
+.fa-snapchat-ghost:hover{
+  color: blue;
+}
+
+.footer-icons{
+  padding: 5px;
+  text-align: center;
+}
+
+.header{
+  background-color: pink;
+  margin-top: 0;
+}
+
+.london-bridge-pic{
+  width:20%;
+}
+
+.title-flag-pic{
+  width: 4%;
+  border-radius: 100%;
+}
+
+.london-pic{
+  width: 20%;
+}
+
+/*
+.london-stop-sign{
+  width: 25%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+*/
+
+.middle-container{
+  text-align: center;
+}
+
+.navbar-toggler {
+  width: 100%;
+  float: none;
+  margin-right: 0;
+}
+
+.page-pic{
+  width: 25%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.paris-pic{
+width: 20%;
+}
+
+.skills{
+  padding-top: 30px;
+}
+
+.skill-row{
+width: 50%;
+margin: 100px auto;
+text-align: left;
+}
+
+
+
+
+
+/*******ID SELECTORS**********/
+#about-me{
+  background-color: pink;
+}
+
+#body-page{
+text-align: center;
+background-color: pink;
+}
+
+#carousel{
+  background-color: pink;
+  text-align: center;
+}
+
+#contact{
+  background-color: pink;
+  text-align: center;
+  line-height: 2;
+  padding-top: 20px;
+}
+
+#footer{
+  background-color: pink;
+  text-align: center;
+  padding: 30px;
+  }
+
+
+#pics{
+  padding: 30px;
+  text-align: center;
+}
+
+
+/*******MEDIA QUERY SELECTORS**********/
+@media(max-width: 900px){
+  .about-pic{
+    transform: rotate(90deg);
+    float: none;
+    width: 60%;
+  }
+
+  .skill-row{
+    text-align: center;
+  }
+
+  .title-flag-pic{
+    width: 8%;
+  }
+
+  .circle-pic{
+    width: 20%;
+    padding: 10px;
+  }
+
+  .page-pic{
+    width: 35%;
+  }
+}
