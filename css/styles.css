@@ -216,11 +216,11 @@ background-color: pink;
   .about-pic{
     transform: rotate(90deg);
     float: none;
-    width: 90%;
+    width: 60%;
   }
     
   .carousel-pic{
-     width: 50%;
+     width: 35%;
     
   }
  
