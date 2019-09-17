@@ -59,6 +59,10 @@ ul{
   margin: auto;
 }
 
+.carousel-pic{
+   width: 20%;
+}
+
 .circle-pic{
   border-radius: 100%;
   width: 17%;
@@ -121,17 +125,9 @@ ul{
   margin-top: 0;
 }
 
-.london-bridge-pic{
-  width:20%;
-}
-
 .title-flag-pic{
   width: 4%;
   border-radius: 100%;
-}
-
-.london-pic{
-  width: 20%;
 }
 
 /*
@@ -156,10 +152,6 @@ ul{
   width: 25%;
   margin-top: 20px;
   margin-bottom: 20px;
-}
-
-.paris-pic{
-width: 20%;
 }
 
 .skills{
